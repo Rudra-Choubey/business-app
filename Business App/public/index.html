@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
+    <title>International Business</title>
+</head>
+<body>
+    <div class="row">
+        <div class='col-sm-5'>
+            <input type="text" placeholder='Enter player name-'  id='player-name' class='form-control'>
+        </div>
+
+        <button id='add-player' class='btn btn-outline-primary'>
+            <i class="fa fa-plus"></i>
+        </button>
+    </div>
+    
+    <table class="table table-striped" style='margin-top: 20px;'>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Cash</th>
+                <th>Credit card</th>
+                <th>Maintainance</th>
+                <th>Rounds completed</th>
+            </tr>
+        </thead>
+        <tbody id='data'>
+
+        </tbody>
+    </table>
+    
+    <script src='holder/graphDetails.js'></script>
+    <script src="holder/config.js"></script>
+    <script src="holder/main.js"></script>
+</body>
+</html>
